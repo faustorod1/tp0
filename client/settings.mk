@@ -5,8 +5,8 @@ LIBS=commons pthread readline m
 STATIC_LIBPATHS=
 
 # Compiler flags
-CDEBUG=-g -Wall -DDEBUG -fdiagnostics-color=always
-CRELEASE=-O3 -Wall -DNDEBUG -fcommon
+CDEBUG=-g -Wall -DDEBUG -fdiagnostics-color=always -Werror
+CRELEASE=-O3 -Wall -DNDEBUG -fcommon -Werror
 
 # Arguments when executing with start, memcheck or helgrind
 ARGS=
