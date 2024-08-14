@@ -16,7 +16,7 @@ void* serializar_paquete(t_paquete* paquete, int bytes)
 	return magic;
 }
 
-int crear_conexion(char *ip, char* puerto)
+int crear_conexion(char *ip, char* puerto, t_log* logger)
 {
 	struct addrinfo hints;
 	struct addrinfo *server_info;
@@ -24,15 +24,30 @@ int crear_conexion(char *ip, char* puerto)
 	memset(&hints, 0, sizeof(hints));
 	hints.ai_family = AF_INET;
 	hints.ai_socktype = SOCK_STREAM;
-	hints.ai_flags = AI_PASSIVE;
+	//hints.ai_flags = AI_PASSIVE;
 
 	getaddrinfo(ip, puerto, &hints, &server_info);
 
 	// Ahora vamos a crear el socket.
-	int socket_cliente = 0;
+	int socket_cliente = socket(server_info->ai_family, server_info->ai_socktype, server_info->ai_protocol);
 
 	// Ahora que tenemos el socket, vamos a conectarlo
+	connect(socket_cliente, server_info->ai_addr, server_info->ai_addrlen);
 
+	//size_t bytes;
+
+	int32_t handshake = 1;
+	int32_t result;
+
+	send(socket_cliente, &handshake, sizeof(int32_t), 0);
+	recv(socket_cliente, &result, sizeof(int32_t), MSG_WAITALL);
+
+	if (result == 0) {
+    	log_info(logger,"Handshake OK");
+	} else {
+    	log_info(logger,"Handshake Fail");
+		abort();
+	}
 
 	freeaddrinfo(server_info);
 

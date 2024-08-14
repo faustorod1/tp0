@@ -13,8 +13,10 @@
 
 t_log* iniciar_logger(void);
 t_config* iniciar_config(void);
-void leer_consola(t_log*);
-void paquete(int);
+t_list* leer_consola(t_log*);
+void chequeo_lista(t_log*, t_list*);
+void paquete(int, t_log*, t_list*);
 void terminar_programa(int, t_log*, t_config*);
+void destroy_element(void *);
 
 #endif /* CLIENT_H_ */
