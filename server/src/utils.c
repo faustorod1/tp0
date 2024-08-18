@@ -9,7 +9,7 @@ int iniciar_servidor(void)
 
 	int socket_servidor;
 
-	struct addrinfo hints, *servinfo, *p;
+	struct addrinfo hints, *servinfo;//, *p;
 
 	memset(&hints, 0, sizeof(hints));
 	hints.ai_family = AF_INET;
@@ -42,17 +42,17 @@ int esperar_cliente(int socket_servidor)
 	int socket_cliente = accept(socket_servidor, NULL, NULL);
 	log_info(logger, "Se conecto un cliente!");
 
-	size_t bytes;
+	//size_t bytes;
 
 	int32_t handshake;
 	int32_t resultOk = 0;
 	int32_t resultError = -1;
 
-	bytes = recv(socket_cliente, &handshake, sizeof(int32_t), MSG_WAITALL);
+	recv(socket_cliente, &handshake, sizeof(int32_t), MSG_WAITALL);
 	if (handshake == 1) {
-		bytes = send(socket_cliente, &resultOk, sizeof(int32_t), 0);
+		send(socket_cliente, &resultOk, sizeof(int32_t), 0);
 	} else {
-		bytes = send(socket_cliente, &resultError, sizeof(int32_t), 0);
+		send(socket_cliente, &resultError, sizeof(int32_t), 0);
 	}
 
 	return socket_cliente;

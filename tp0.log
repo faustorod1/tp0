@@ -5,3 +5,129 @@
 [INFO] 20:40:57:027 Cliente/(8986:8986): ¡No se pudo crear el config!
 [INFO] 20:51:55:657 Cliente/(9771:9771): Soy un Log
 [INFO] 20:51:55:659 Cliente/(9771:9771): ¡No se pudo crear el config!
+[INFO] 20:35:43:514 Cliente/(4216:4216): Soy un Log
+[INFO] 20:35:43:518 Cliente/(4216:4216): ¡No se pudo crear el config!
+[INFO] 20:37:17:777 Cliente/(4450:4450): Soy un Log
+[INFO] 20:37:17:784 Cliente/(4450:4450): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:37:17:786 Cliente/(4450:4450): leí el puerto = 4444 del archivo de config
+[INFO] 20:37:17:787 Cliente/(4450:4450): leí el valor = valor del archivo de config
+[INFO] 20:37:21:285 Cliente/(4450:4450): Se ingreso por consola: hola
+[INFO] 20:37:21:845 Cliente/(4450:4450): Lei de la lista: hola
+[INFO] 20:38:24:008 Cliente/(4578:4578): Soy un Log
+[INFO] 20:38:24:009 Cliente/(4578:4578): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:38:24:010 Cliente/(4578:4578): leí el puerto = 4444 del archivo de config
+[INFO] 20:38:24:010 Cliente/(4578:4578): leí el valor = valor del archivo de config
+[INFO] 20:39:26:060 Cliente/(4728:4728): Soy un Log
+[INFO] 20:39:26:062 Cliente/(4728:4728): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:39:26:062 Cliente/(4728:4728): leí el puerto = 4444 del archivo de config
+[INFO] 20:39:26:063 Cliente/(4728:4728): leí el valor = valor del archivo de config
+[INFO] 20:40:56:919 Cliente/(4877:4877): Soy un Log
+[INFO] 20:40:56:921 Cliente/(4877:4877): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:40:56:921 Cliente/(4877:4877): leí el puerto = 4444 del archivo de config
+[INFO] 20:40:56:921 Cliente/(4877:4877): leí el valor = valor del archivo de config
+[INFO] 20:41:17:021 Cliente/(4877:4877): Se ingreso por consola: hola
+[INFO] 20:41:18:720 Cliente/(4877:4877): Lei de la lista: hola
+[INFO] 20:42:52:085 Cliente/(5114:5114): Soy un Log
+[INFO] 20:42:52:088 Cliente/(5114:5114): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:42:52:088 Cliente/(5114:5114): leí el puerto = 4444 del archivo de config
+[INFO] 20:42:52:088 Cliente/(5114:5114): leí el valor = valor del archivo de config
+[INFO] 20:54:16:611 Cliente/(5114:5114): Se ingreso por consola: nsss
+[INFO] 20:54:19:762 Cliente/(5114:5114): Lei de la lista: nsss
+[INFO] 20:54:19:783 Cliente/(5114:5114): Handshake OK
+[INFO] 20:54:19:787 Cliente/(5114:5114): Envié el mensaje valor 
+[INFO] 20:54:19:787 Cliente/(5114:5114): Agrego a paquete: nsss
+[INFO] 20:54:19:787 Cliente/(5114:5114): Envie paquete
+[INFO] 20:54:48:649 Cliente/(5587:5587): Soy un Log
+[INFO] 20:54:48:651 Cliente/(5587:5587): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:54:48:651 Cliente/(5587:5587): leí el puerto = 4444 del archivo de config
+[INFO] 20:54:48:651 Cliente/(5587:5587): leí el valor = valor del archivo de config
+[INFO] 20:54:55:994 Cliente/(5587:5587): Se ingreso por consola: probando debugger
+[INFO] 20:54:57:162 Cliente/(5587:5587): Lei de la lista: probando debugger
+[INFO] 20:54:57:163 Cliente/(5587:5587): Handshake OK
+[INFO] 20:54:57:163 Cliente/(5587:5587): Envié el mensaje valor 
+[INFO] 20:54:57:163 Cliente/(5587:5587): Agrego a paquete: probando debugger
+[INFO] 20:54:57:163 Cliente/(5587:5587): Envie paquete
+[INFO] 20:56:10:189 Cliente/(5743:5743): Soy un Log
+[INFO] 20:56:19:676 Cliente/(5743:5743): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:56:33:050 Cliente/(5743:5743): leí el puerto = 4444 del archivo de config
+[INFO] 20:56:41:323 Cliente/(5743:5743): leí el valor = valor del archivo de config
+[INFO] 01:51:00:469 Cliente/(2093:2093): Soy un Log
+[INFO] 01:51:00:698 Cliente/(2093:2093): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 01:51:00:802 Cliente/(2093:2093): leí el puerto = 4444 del archivo de config
+[INFO] 01:51:00:807 Cliente/(2093:2093): leí el valor = valor del archivo de config
+[INFO] 01:52:45:032 Cliente/(2093:2093): Se ingreso por consola: estoy probando con valgrind
+[INFO] 01:57:39:861 Cliente/(2093:2093): Lei de la lista: estoy probando con valgrind
+[INFO] 01:57:39:922 Cliente/(2093:2093): Handshake OK
+[INFO] 01:57:39:992 Cliente/(2093:2093): Envié el mensaje valor 
+[INFO] 01:57:40:022 Cliente/(2093:2093): Agrego a paquete: estoy probando con valgrind
+[INFO] 01:57:40:045 Cliente/(2093:2093): Envie paquete
+[INFO] 17:45:19:187 Cliente/(5757:5757): Soy un Log
+[INFO] 17:45:19:354 Cliente/(5757:5757): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 17:45:19:373 Cliente/(5757:5757): leí el puerto = 4444 del archivo de config
+[INFO] 17:45:19:384 Cliente/(5757:5757): leí el valor = valor del archivo de config
+[INFO] 17:47:13:800 Cliente/(5905:5905): Soy un Log
+[INFO] 17:47:14:005 Cliente/(5905:5905): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 17:47:14:017 Cliente/(5905:5905): leí el puerto = 4444 del archivo de config
+[INFO] 17:47:14:022 Cliente/(5905:5905): leí el valor = valor del archivo de config
+[INFO] 17:50:17:594 Cliente/(6174:6174): Soy un Log
+[INFO] 17:50:17:655 Cliente/(6174:6174): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 17:50:17:816 Cliente/(6174:6174): leí el puerto = 4444 del archivo de config
+[INFO] 17:50:17:818 Cliente/(6174:6174): leí el valor = valor del archivo de config
+[INFO] 20:16:05:831 Cliente/(8342:8342): Soy un Log
+[INFO] 20:16:05:966 Cliente/(8342:8342): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:16:05:988 Cliente/(8342:8342): leí el puerto = 4444 del archivo de config
+[INFO] 20:16:06:000 Cliente/(8342:8342): leí el valor = valor del archivo de config
+[INFO] 20:16:21:821 Cliente/(8342:8342): Se ingreso por consola: analizando perdidas de memoria
+[INFO] 20:16:25:417 Cliente/(8342:8342): Lei de la lista: analizando perdidas de memoria
+[INFO] 20:16:25:436 Cliente/(8342:8342): Handshake OK
+[INFO] 20:16:25:455 Cliente/(8342:8342): Envié el mensaje valor 
+[INFO] 20:16:25:466 Cliente/(8342:8342): Agrego a paquete: analizando perdidas de memoria
+[INFO] 20:16:25:490 Cliente/(8342:8342): Envie paquete
+[INFO] 20:20:46:705 Cliente/(8693:8693): Soy un Log
+[INFO] 20:20:46:808 Cliente/(8693:8693): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:20:46:845 Cliente/(8693:8693): leí el puerto = 4444 del archivo de config
+[INFO] 20:20:46:848 Cliente/(8693:8693): leí el valor = valor del archivo de config
+[INFO] 20:20:50:185 Cliente/(8693:8693): Handshake OK
+[INFO] 20:20:50:200 Cliente/(8693:8693): Envié el mensaje valor 
+[INFO] 20:20:50:205 Cliente/(8693:8693): Envie paquete
+[INFO] 20:30:43:535 Cliente/(9318:9318): Soy un Log
+[INFO] 20:30:43:689 Cliente/(9318:9318): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:30:43:770 Cliente/(9318:9318): leí el puerto = 4444 del archivo de config
+[INFO] 20:30:43:772 Cliente/(9318:9318): leí el valor = valor del archivo de config
+[INFO] 20:34:45:471 Cliente/(9318:9318): Handshake OK
+[INFO] 20:34:45:487 Cliente/(9318:9318): Envié el mensaje valor 
+[INFO] 20:34:45:492 Cliente/(9318:9318): Envie paquete
+[INFO] 20:41:00:529 Cliente/(9774:9774): Soy un Log
+[INFO] 20:41:00:691 Cliente/(9774:9774): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:41:00:703 Cliente/(9774:9774): leí el puerto = 4444 del archivo de config
+[INFO] 20:41:00:717 Cliente/(9774:9774): leí el valor = valor del archivo de config
+[INFO] 20:41:12:282 Cliente/(9774:9774): Handshake OK
+[INFO] 20:41:12:301 Cliente/(9774:9774): Envié el mensaje valor 
+[INFO] 20:41:12:313 Cliente/(9774:9774): Envie paquete
+[INFO] 20:43:00:595 Cliente/(10104:10104): Soy un Log
+[INFO] 20:43:00:687 Cliente/(10104:10104): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:43:00:798 Cliente/(10104:10104): leí el puerto = 4444 del archivo de config
+[INFO] 20:43:00:800 Cliente/(10104:10104): leí el valor = valor del archivo de config
+[INFO] 20:43:02:558 Cliente/(10104:10104): Se ingreso por consola: h
+[INFO] 20:43:03:220 Cliente/(10104:10104): Lei de la lista: h
+[INFO] 20:43:03:261 Cliente/(10104:10104): Handshake OK
+[INFO] 20:43:03:279 Cliente/(10104:10104): Envié el mensaje valor 
+[INFO] 20:43:03:283 Cliente/(10104:10104): Agrego a paquete: h
+[INFO] 20:43:03:287 Cliente/(10104:10104): Envie paquete
+[INFO] 20:47:07:454 Cliente/(10300:10300): Soy un Log
+[INFO] 20:47:07:536 Cliente/(10300:10300): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:47:07:579 Cliente/(10300:10300): leí el puerto = 4444 del archivo de config
+[INFO] 20:47:07:582 Cliente/(10300:10300): leí el valor = valor del archivo de config
+[INFO] 20:47:10:667 Cliente/(10300:10300): Se ingreso por consola: k
+[INFO] 20:47:10:915 Cliente/(10300:10300): Lei de la lista: k
+[INFO] 20:47:10:992 Cliente/(10300:10300): Handshake OK
+[INFO] 20:47:10:999 Cliente/(10300:10300): Envié el mensaje valor 
+[INFO] 20:47:11:002 Cliente/(10300:10300): Agrego a paquete: k
+[INFO] 20:47:11:006 Cliente/(10300:10300): Envie paquete
+[INFO] 20:47:46:671 Cliente/(10526:10526): Soy un Log
+[INFO] 20:47:46:759 Cliente/(10526:10526): leí la ip = 127.0.0.1 del archivo de config
+[INFO] 20:47:46:800 Cliente/(10526:10526): leí el puerto = 4444 del archivo de config
+[INFO] 20:47:46:803 Cliente/(10526:10526): leí el valor = valor del archivo de config
+[INFO] 20:47:47:999 Cliente/(10526:10526): Handshake OK
+[INFO] 20:47:48:012 Cliente/(10526:10526): Envié el mensaje valor 
+[INFO] 20:47:48:020 Cliente/(10526:10526): Envie paquete

@@ -15,7 +15,7 @@ int main(void)
 
 	/* ---------------- LOGGING ---------------- */
 
-	logger = iniciar_logger();
+	logger = iniciar_logger();	
 
 	// Usando el logger creado previamente
 	// Escribi: "Hola! Soy un log"
@@ -80,7 +80,7 @@ t_log* iniciar_logger(void)
 
 t_config* iniciar_config(void)
 {
-	t_config* nuevo_config = config_create("../cliente.config");
+	t_config* nuevo_config = config_create("/home/utnso/tp0/client/cliente.config");
 
 	return nuevo_config;
 }
